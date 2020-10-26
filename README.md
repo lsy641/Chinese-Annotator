@@ -49,6 +49,7 @@ mongod
 ```bash
 cd $repository_directory
 bash scripts/init_db.sh
+如果出现mongo commond not found， 把init_db.sh文件中的mongo替换成你路径下的mongo如“xx/xx/xx/mongo”
 ```
 
 - 启动 python api 服务
@@ -71,7 +72,7 @@ yarn
 - 启动前端开发服务
 
 ```bash
-yarn start
+yarn serve
 ```
 
 ## Project Alignment
